@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+width: 10px;
+background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb{
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+background-color: rgb(42, 165, 93);
+}
+
+
+.navbar-toggler{
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.active_class{
+    color: blue;
+    border-bottom: 2px solid rgb(42, 165, 93);
+}
+.liPadding{
+    margin-right: 30px;
+}
+a{
+    color: black;
+}
