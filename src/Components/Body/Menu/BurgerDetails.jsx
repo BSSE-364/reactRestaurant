@@ -34,6 +34,7 @@ function BurgerDetails() {
             exit="exit"
         >
             <Testing />
+            details
         </MotionBox>
     )
 }
