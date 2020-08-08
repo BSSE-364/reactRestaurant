@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 // React Router Dom
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { createBrowserHistory } from "history";
+
+const history = createBrowserHistory();
 
 // Chakra UI
 import { ThemeProvider, theme, ColorModeProvider, CSSReset } from "@chakra-ui/core";
@@ -13,9 +16,9 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
       <CSSReset />
       <ColorModeProvider>
-        <HashRouter>
+        <Router history={history}>
           <App />
-        </HashRouter>
+        </Router>
       </ColorModeProvider>
     </ThemeProvider>
   </React.StrictMode>,
