@@ -13,7 +13,7 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
       <CSSReset />
       <ColorModeProvider>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <App />
         </Router>
       </ColorModeProvider>
