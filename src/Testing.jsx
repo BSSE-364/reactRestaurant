@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Contextvalues } from './App';
-import { data } from "./Components/Body/Menu/Burger.json"
+import data from "./Components/Body/Menu/Burger.json"
 
 import { useParams } from 'react-router-dom'
 import { useHistory } from 'react-router-dom';
@@ -58,7 +58,7 @@ function Testing() {
                         transition={{ delay: 1.7, duration: 0.4, type: "spring", stiffness: 200 }}
                     >
                         <Box d="flex" justifyContent="center">
-                            <img src={`${data[id].burgerImg}`}
+                            <img src={require(`${data[id].burgerImg}`)}
                                 className="img-fluid shadow-lg img-thumbnail"
                                 alt={data[id].name} style={{
                                     height: "400px",
