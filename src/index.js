@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 // React Router Dom
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 // Chakra UI
 import { ThemeProvider, theme, ColorModeProvider, CSSReset } from "@chakra-ui/core";
