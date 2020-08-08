@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactRestaurant/static/css/main.dc2d82aa.chunk.css",
-    "main.js": "/reactRestaurant/static/js/main.60c73e2b.chunk.js",
-    "main.js.map": "/reactRestaurant/static/js/main.60c73e2b.chunk.js.map",
+    "main.js": "/reactRestaurant/static/js/main.7a27d885.chunk.js",
+    "main.js.map": "/reactRestaurant/static/js/main.7a27d885.chunk.js.map",
     "runtime-main.js": "/reactRestaurant/static/js/runtime-main.fad3bc1f.js",
     "runtime-main.js.map": "/reactRestaurant/static/js/runtime-main.fad3bc1f.js.map",
     "static/css/2.aa05c5a4.chunk.css": "/reactRestaurant/static/css/2.aa05c5a4.chunk.css",
-    "static/js/2.5f62862d.chunk.js": "/reactRestaurant/static/js/2.5f62862d.chunk.js",
-    "static/js/2.5f62862d.chunk.js.map": "/reactRestaurant/static/js/2.5f62862d.chunk.js.map",
+    "static/js/2.d9c78cfa.chunk.js": "/reactRestaurant/static/js/2.d9c78cfa.chunk.js",
+    "static/js/2.d9c78cfa.chunk.js.map": "/reactRestaurant/static/js/2.d9c78cfa.chunk.js.map",
     "index.html": "/reactRestaurant/index.html",
-    "precache-manifest.b14cbf13a40fd8261ea365d82d88b8e8.js": "/reactRestaurant/precache-manifest.b14cbf13a40fd8261ea365d82d88b8e8.js",
+    "precache-manifest.7d57abb6e9ed8defb7108daafff56e78.js": "/reactRestaurant/precache-manifest.7d57abb6e9ed8defb7108daafff56e78.js",
     "service-worker.js": "/reactRestaurant/service-worker.js",
     "static/css/2.aa05c5a4.chunk.css.map": "/reactRestaurant/static/css/2.aa05c5a4.chunk.css.map",
     "static/css/main.dc2d82aa.chunk.css.map": "/reactRestaurant/static/css/main.dc2d82aa.chunk.css.map",
-    "static/js/2.5f62862d.chunk.js.LICENSE.txt": "/reactRestaurant/static/js/2.5f62862d.chunk.js.LICENSE.txt",
+    "static/js/2.d9c78cfa.chunk.js.LICENSE.txt": "/reactRestaurant/static/js/2.d9c78cfa.chunk.js.LICENSE.txt",
     "static/media/b1.jpg": "/reactRestaurant/static/media/b1.b8413ffa.jpg",
     "static/media/b2.jpg": "/reactRestaurant/static/media/b2.815cafea.jpg",
     "static/media/b3.jpg": "/reactRestaurant/static/media/b3.2933a4f5.jpg",
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.fad3bc1f.js",
     "static/css/2.aa05c5a4.chunk.css",
-    "static/js/2.5f62862d.chunk.js",
+    "static/js/2.d9c78cfa.chunk.js",
     "static/css/main.dc2d82aa.chunk.css",
-    "static/js/main.60c73e2b.chunk.js"
+    "static/js/main.7a27d885.chunk.js"
   ]
 }
