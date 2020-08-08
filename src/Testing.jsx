@@ -58,7 +58,7 @@ function Testing() {
                         transition={{ delay: 1.7, duration: 0.4, type: "spring", stiffness: 200 }}
                     >
                         <Box d="flex" justifyContent="center">
-                            <img src={require(`${data[id].burgerImg}`)}
+                            <img src={`${data[id].burgerImg}`}
                                 className="img-fluid shadow-lg img-thumbnail"
                                 alt={data[id].name} style={{
                                     height: "400px",
