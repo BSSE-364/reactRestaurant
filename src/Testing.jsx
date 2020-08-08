@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Contextvalues } from './App';
-import data from "./Components/Body/Menu/Burger.json"
+import { data } from "./Components/Body/Menu/Burger.json"
 
 import { useParams } from 'react-router-dom'
 import { useHistory } from 'react-router-dom';

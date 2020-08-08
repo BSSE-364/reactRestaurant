@@ -81,7 +81,7 @@ export default function BurgerList(props) {
                     animate={{ x: 0, opacity: 1, rotate: 360 }}
                     transition={{ delay: 5.5, duration: 0.7 }}
                 />
-                <NavLink exact to={`menu/burger/${props.itemsId}`}>
+                <NavLink exact to={`/menu/burger/${props.itemsId}`}>
                     <MotionIconButton
                         color="rgb(42, 165, 93)"
                         fontSize="19px"
